@@ -1,0 +1,32 @@
+import "@styles/globals.css";
+import Footer from "@components/footer/Footer";
+import NavBar from "@components/NavBar";
+
+
+export const metadata = {
+  title: "LSP - PNJ",
+  description: "LSP-PNJ",
+};
+
+const RootLayout = ({ children }) => {
+
+  return (
+    <html>
+      <head>
+        <link rel="icon" href="/assets/images/Logo.svg" />
+      </head>
+      <body style={{backgroundColor:"#EFF5F5"}}>
+        {/* <Nav /> */}
+        {/* <NavBar /> */}
+        <main className="main">
+          {children}
+        </main>
+        {/* <Footer /> */}
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      </body>
+    </html>
+  );
+};
+
+export default RootLayout;

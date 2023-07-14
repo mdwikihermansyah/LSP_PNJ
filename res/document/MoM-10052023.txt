@@ -1,0 +1,74 @@
+NOTULENSI PERTEMUAN PROYEK NTG 10/05/2023
+
+Kehadiran:
+1. Pak Yudhistira
+2. Full Team Proyek Kehuhusan PNJ
+
+- Hedya:
+Penampilan mockup website (Figma : LSP Management)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Revisi: 
+- Logo LSP dapat dibuat dengan manual (DONE)
+- Halaman login : admin tidak perlu ditampilkan (dihilangkan halamannya), loginnya sebagi admin melalui url khusus. bertujuan :Memudahkan dan menghindari dari sesi security (DONE)
+
+- Alur wesbite (flow website):(dashboard, UK)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Tanggapan: Nanti akan diberitahu terkait halaman utama
+
+- Gilang: 
+PROGRESS dari masing masing divisi:
+Divisi BE
+- Mencoba database
+- Mempelajari API (DONE)
+Divisi FE 
+- Mempelajari NEXT.js (DONE)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Pertemuan selanjutnya:
+- Pelajaran terkait UI
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- Pak Yudhi:
+Penampilan database:
+- Pada tables masih kurang sesuai dari foreign key (ON PROGRES)
+- Penampilan Bispro (proses setup master) (DONE).Bpmn
+
+Masukkan untuk Tim Proyek PNJ
+Database:
+- Dapat dirapihkan kembali pada penamaan tables foreign key (ON PROGRES)
+- Dirapihkan kembali untuk pembuatan ERD (ON PROGRES)
+- Penggunaan user dan tools aplikasi (bisa kita mapilkan atau hidden) (ON PROGRES)
+- User enroll dan akses (ON PROGRES) 
+- Tabel master dapat dikelompokan (mana yg sebagai tabel master dan transaksi) (ON PROGRES)
+- Merapihkan Penamaan identitas file ttd yg ditampung (ON PROGRES)
+
+Website LSP Administrator
+Skema Sertifikasi 
+- Design tidak perlu sama, tetapi harus dapat Mengakomonir kebutuhan 
+Rekening (input biaya)
+- Bisa dibuatkan dinamic terkait pilihan biaya
+
+Website LSP Akun Asesi
+Pendaftaran akun asesi>alamat:  (ON PROGRES)
+	- Dibuat select untuk penggunanya 
+	- Penambahan grid untuk input pada pendaftaran uji kompetensi skema auditor
+		Formulir assesmen mandiri
+	- BA mencoba untuk mendesign tampilan input data
+
+MEKANISME ;Menggunakan waterfall -> targetnya minimal 4 bulan
+
+
+Pertemuan selanjutnya:
+- Target temen temen FE masih mempelajari terkait React/NEXT.js (DONE) 
+- Pembuatan flow process (ON PROGRESS)
+- Mockup dari sisi pendaftar & admin ( ON PROGRESS)
+
+Pertemuan selanjutnya:
+--  kelanjutan flow Proses (Admin) 
+      -- Mockup
+
+FE:
+	-- mebuat tampilan landing page ( react.js)
+BE
+	-- API & CRUD & PORSTGRESQL 	      
+      

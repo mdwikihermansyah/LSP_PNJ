@@ -1,0 +1,51 @@
+"use client";
+import React from "react";
+import { Table, Modal, Button, Group } from "@mantine/core";
+import { LuPlus, LuEdit, LuTrash2 } from "react-icons/lu";
+import Link from "next/link";
+import AddTU from "./AddTU";
+import { useDisclosure } from "@mantine/hooks";
+import UpdateTU from "./UpdateTU";
+import { Table } from '@mantine/core'; //install npm i mantine-datatable
+
+export default function page() {
+  const ths = (
+    <tr>
+      <th>Element position</th>
+      <th>Element name</th>
+      <th>Symbol</th>
+      <th>Atomic mass</th>
+    </tr>
+  );
+
+  const rows = elements.map((element) => (
+    <tr key={element.name}>
+      <td>{element.position}</td>
+      <td>{element.name}</td>
+      <td>{element.symbol}</td>
+      <td>{element.mass}</td>
+    </tr>
+  ));
+  
+
+
+
+
+
+
+
+  return (
+  
+      <div className="bg-primary-blue w-full rounded-t-xl p-3 text-white font-semibold text-lg">
+        <p>Profil Asesi</p>
+      </div>
+
+ <Table captionSide="bottom">
+ <caption>Some elements from periodic table</caption>
+ <thead>{ths}</thead>
+ <tbody>{rows}</tbody>
+ <tfoot>{ths}</tfoot>
+</Table>
+
+);
+}
